@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import tree from "./images/2.1.jpg"
 import './App.css';
+import TepaNom from "./Navbar/Navbar"
+import Home from "./Home/Home"
+import 'bootstrap/dist/css/bootstrap.css';
+import Backend from "./getDataApi"
+import Table from "./getDataApi/Table"
+import Navbar from "./Navbar/Navbar";
+import { BrowserRouter, Route, Routes  } from "react-router-dom";
+import Ilyosxon from "./Counter/CounterList"
+import HomeClass from "./HomeClass/HomeClass";
+import Stat from "./Statistik"
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Navbar />
+      <Routes >
+        <Route path="/" element={<Stat/>} />
+        <Route path="/blog" element={<Table/>} />
+        <Route path="/users" element={<Backend/>} />
+        <Route path="/ilyosxon" element={<Ilyosxon/>}/>
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

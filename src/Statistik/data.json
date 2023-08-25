@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Yanvar",
+      "Kartoshka": 3890,
+      "Piyoz": 2400,
+      "amt": 2400
+    },
+    {
+      "name": "Fevral",
+      "Kartoshka": 3000,
+      "Piyoz": 1398,
+      "amt": 2210
+    },
+    {
+      "name": "Mart",
+      "Kartoshka": 2000,
+      "Piyoz": 9800,
+      "amt": 2290
+    },
+    {
+      "name": "Page D",
+      "Kartoshka": 2780,
+      "Piyoz": 3908,
+      "amt": 2000
+    },
+    {
+      "name": "Page E",
+      "Kartoshka": 1890,
+      "Piyoz": 4800,
+      "amt": 2181
+    }
+  ]
+  

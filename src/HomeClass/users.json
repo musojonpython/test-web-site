@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Alisher",
+        "age": 18,
+        "isStudent": false,
+        "country": "Uzbekistan",
+        "phone": 998918527445,
+        "photo": "../images/2.1.jpg"
+    },
+    {
+        "name": "Umriddin",
+        "age": 28,
+        "isStudent": true,
+        "country": "Uzbekistan",
+        "phone": 998918527445,
+        "photo": "../images/2.1.jpg"
+    },
+    {
+        "name": "Valisher",
+        "age": 14,
+        "isStudent": false,
+        "country": "Uzbekistan",
+        "phone": 998918527445,
+        "photo": "../images/2.1.jpg"
+    },
+    {
+        "name": "Qodirjon",
+        "age": 14,
+        "isStudent": false,
+        "country": "Uzbekistan",
+        "phone": 998918527445,
+        "photo": "../images/2.1.jpg"
+    },
+    {
+        "name": "Azizbek",
+        "age": 60,
+        "isStudent": false,
+        "country": "Uzbekistan",
+        "phone": 998918527445
+    }
+
+]
